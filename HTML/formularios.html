@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulários</h1>
+        <hr>
+        <br>
+        <form>
+            <div>
+                <label for="texto">Nome: </label>
+                <!-- usando o placeholder fica a mensagem dentro da caixa de texto informando  -->
+                <!-- <input type="text" id="texto" placeholder="Informe seu nome...">-->
+
+                <!-- Usando value já deixa predefinido texto inicial na caixa de texto -->
+                <!-- <input type="text" id="texto" value="Leandro"> -->
+
+                <input type="text" id="texto" name="nome">            
+                
+            </div>
+
+            <div>
+                <br>
+                <label for="Senha">Senha: </label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <br>
+                <label for="E-mail">E-mail: </label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <br>
+                <label for="Data">Data de Nascimento: </label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div>
+                <br>
+                <label for="hora">Horário: </label>
+                <input type="time" id="hora" name="hora">
+            </div>
+
+            <div>
+                <br>
+                <label for="numero">Número: </label>
+                <input type="number" id="numero" name="numero">
+            </div>
+
+            <div>
+                <br>
+                <label for="arquivo">Selecione o Arquivo: </label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+
+            <div>
+                <br>
+                <label for="link">Digite o Link: </label>
+                <input type="url" id="link" name="link">
+            </div>
+
+            <div>
+                <br>
+                <label for="cor">selecione a cor: </label>
+                <input type="color" id="cor" name="cor">
+            </div>
+
+            <div>
+                <br>
+                <label for="range">selecione o range: </label>
+                <input type="range" id="range" name="range">
+            </div>
+
+            <div>
+                <br>
+                <label for="confirmacao">Confirme aqui: </label>
+                <input type="checkbox" id="confirmacao" name="confirmacao">
+            </div>
+
+            <div>
+                <br>
+                <label for="selecao1">seleção 1: </label>
+                <input type="radio" id="selecao1" name="selecao1">                
+            </div>
+
+            <div>
+                <br>
+                <label for="resetar">resetar: </label>
+                <input type="reset" id="resetar" name="resetar" value="LIMPAR">                
+            </div>
+            
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <div>
+                <br>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+
+            </div>
+
+            
+
+            <div>
+                <br>
+                <!-- <label for="enviar">Enviar: </label> -->
+                <input type="submit" id="enviar" name="enviar">                
+            </div>
+
+            
+           
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
