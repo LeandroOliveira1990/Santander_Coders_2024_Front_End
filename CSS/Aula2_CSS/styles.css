@@ -1,0 +1,39 @@
+
+/* mudando configurações da página tirando a margem e o padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+    background-color: aquamarine;
+    font-size: 96px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.bg{
+    height: 500px;
+    width: 1000px;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1717684566059-4d16b456c72a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.lorem1{
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+.qualquer{
+    text-decoration: wavy;
+    text-transform: uppercase;
+    text-shadow: 100px;
+    text-align: center;
+
+}
