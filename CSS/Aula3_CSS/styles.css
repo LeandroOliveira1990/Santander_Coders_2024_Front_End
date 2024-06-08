@@ -1,0 +1,68 @@
+
+/* mudando configurações da página tirando a margem e o padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Usando para ajudar na acessibilidade das páginas */
+:root {
+    font-size: 62,5%;
+}
+h1{
+    color: blue;
+    background-color: aquamarine;
+    font-size: 9.6rem;
+    font-weight: 900;
+    font-style: italic;
+    
+    font-family: 'Comic Neue', cursive;
+}
+
+.novo-em{
+    font-size: 3.2rem;
+    font-size: 85%;
+    font-size: 600%;
+}
+
+/* Definindo padrões de todas as classe a que são links */
+a{
+    font-size: 2.9rem;
+    color: green;
+}
+
+/* Muda a cor do link visitado */
+a:visited{
+    color: red;
+}
+
+/* muda a cor quando passa o mouse em cima do link */
+a:hover{
+    color: chocolate;
+}
+
+/* Usando o VH para o tamanho da tela */
+.bg{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1717684566059-4d16b456c72a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.lorem1{
+    font-size: 3.2rem;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+.qualquer{
+    text-decoration: wavy;
+    text-transform: uppercase;
+    text-shadow: 100px;
+    text-align: center;
+
+}
